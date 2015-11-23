@@ -1,3 +1,4 @@
+// white box test of messaging pkg
 package messaging
 import (
 	"testing"
@@ -6,7 +7,7 @@ import (
 )
 
 
-
+// test the message.Order unMarshalling func
 func TestUnMarshallJson(t *testing.T) {
 	// given
 	var expectedOrder message.Order
